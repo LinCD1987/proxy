@@ -3,20 +3,8 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
-proxies:
-  - {name: 馃嚟馃嚢HK_680, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 馃嚠馃嚦IN_88_34.58Mb, server: 45.79.121.117, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚭馃嚫+US_441, server: ss-node-5.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 122b9200-c5e0-4003-836c-973eef59b6b2, udp: true}
-  - {name: 馃嚟馃嚢HK_704, server: azhk.node.qchwnd.moe, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 馃嚫馃嚞 SG_885, server: 54.151.190.78, port: 28443, type: trojan, password: a7d0812a-f8e3-45f9-9a57-b2b3392d765b, skip-cert-verify: true, udp: true}
-  - {name: 馃嚡馃嚨 JP_619_28.15Mb, server: scjp.scsevers.cf, port: 11312, type: vmess, uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: scjp.scsevers.cf}, udp: true}
-  - {name: 馃嚫馃嚞 SG_881, server: 3.0.180.140, port: 28443, type: trojan, password: a7d0812a-f8e3-45f9-9a57-b2b3392d765b, skip-cert-verify: true, udp: true}
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
 external-controller: 0.0.0.0:9090
+proxies:
 proxies:
   - {"name":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_1","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","country":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"138.197.236.77"}}}
   - {"name":"US-v2cross_com_2","server":"45.66.159.43","port":26628,"type":"vmess","uuid":"e335e880-c128-11ec-93fa-00163cbed88a","alterId":0,"cipher":"auto","country":"US-v2cross_com_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/A4LCl0QX/","headers":{"host":"45.66.159.43"}}}
