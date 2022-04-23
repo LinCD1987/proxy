@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-proxies:
   - {"name":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_1","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","country":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_1","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"138.197.236.77"}}}
   - {"name":"US-v2cross_com_2","server":"45.66.159.43","port":26628,"type":"vmess","uuid":"e335e880-c128-11ec-93fa-00163cbed88a","alterId":0,"cipher":"auto","country":"US-v2cross_com_2","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/A4LCl0QX/","headers":{"host":"45.66.159.43"}}}
   - {"name":"CN-v2cross_com_3","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
