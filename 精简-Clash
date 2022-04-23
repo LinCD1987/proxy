@@ -5,101 +5,62 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"213.183.53.200","port":9033,"type":"ss","country":"defaultName_1","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"name":"defaultName_2","server":"213.183.53.200","port":9043,"type":"ss","country":"defaultName_2","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"name":"CA-v2cross_com_3","server":"ca-nf-route.teacher2050.com","port":31250,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"CA-v2cross_com_3","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"ca-nf-route.teacher2050.com"}}}
-  - {"name":"CN-v2cross_com_4","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_4","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
-  - {"name":"CN-v2cross_com_5","server":"43.154.102.246","port":39509,"type":"vmess","uuid":"9555680d-9857-4266-a97b-cb8b393d6e98","alterId":0,"cipher":"auto","country":"CN-v2cross_com_5","skip-cert-verify":true,"tls":false,"network":"tcp"}
-  - {"name":"CN-v2cross_com_6","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
-  - {"name":"CN-v2cross_com_7","server":"in-v1.sdgdn.com","port":50401,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
-  - {"name":"CN-v2cross_com_8","server":"43.154.46.228","port":49930,"type":"vmess","uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","country":"CN-v2cross_com_8","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.154.46.228"}}}
-  - {"name":"CN-v2cross_com_9","server":"in-v1.sdgdn.com","port":50205,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_9","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
-  - {"name":"CN-v2cross_com_10","server":"in-v1.sdgdn.com","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
-  - {"name":"CN-v2cross_com_11","server":"in-v1.sdgdn.com","port":50701,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_11","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
-  - {"name":"CN-v2cross_com_12","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_12","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"CN-v2cross_com_13","server":"120.240.48.20","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"CN-v2cross_com_14","server":"412sgsg.fans8.xyz","port":443,"type":"vmess","uuid":"82a96743-115b-356d-90ae-2928f32d8958","alterId":2,"cipher":"auto","country":"CN-v2cross_com_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"412sgsg.fans8.xyz"}}}
-  - {"name":"CN-v2cross_com_15","server":"sg-cn-route.teacher2050.com","port":31208,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"CN-v2cross_com_15","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"sg-cn-route.teacher2050.com"}}}
-  - {"name":"DE-v2cross_com_16","server":"de-nf-route.teacher2040.com","port":31251,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"DE-v2cross_com_16","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"de-nf-route.teacher2040.com"}}}
-  - {"name":"FR-v2cross_com_17","server":"fr-nf-route.teacher2050.com","port":31225,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"FR-v2cross_com_17","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"fr-nf-route.teacher2050.com"}}}
-  - {"name":"FR-v2cross_com_18","server":"fr-1-fast.teacher2050.com","port":31318,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"FR-v2cross_com_18","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"fr-1-fast.teacher2050.com"}}}
-  - {"name":"ID-v2cross_com_19","server":"103.28.23.162","port":12300,"type":"vmess","uuid":"55dc9daf-ea0e-38f1-aa82-ed76c8b19df2","alterId":0,"cipher":"auto","country":"ID-v2cross_com_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/apple-home","headers":{"host":"in.academicpapers.eu.org"}}}
-  - {"name":"IN-v2cross_com_20","server":"in-1-fast.teacher2060.com","port":31221,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"IN-v2cross_com_20","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"in-1-fast.teacher2060.com"}}}
-  - {"name":"LU-v2cross_com_21","server":"ru-1-fast.teacher2060.com","port":31319,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"LU-v2cross_com_21","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"ru-1-fast.teacher2060.com"}}}
-  - {"name":"NL-v2cross_com_22","server":"45.147.160.86","port":813,"type":"ss","country":"NL-v2cross_com_22","cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"name":"NL-v2cross_com_23","server":"nl-nf-route.teacher2040.com","port":31255,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"NL-v2cross_com_23","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"nl-nf-route.teacher2040.com"}}}
-  - {"name":"Pool_🇳🇱NL_1287","server":"85.209.159.107","port":20403,"type":"vmess","uuid":"b3b08b1c-c0a4-11ec-8151-00163c3fe0cd","alterId":0,"cipher":"auto","country":"Pool_🇳🇱NL_1287","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/Asq7j5Mb/","headers":{"host":"85.209.159.107"}}}
-  - {"name":"Relay_🇨🇦CA-🇨🇦CA_393","server":"417tw.fans8.xyz","port":443,"type":"vmess","uuid":"82a96743-115b-356d-90ae-2928f32d8958","alterId":2,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_393","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"417tw.fans8.xyz"}}}
-  - {"name":"Relay_🇨🇳CN-🇯🇵JP_13","server":"jp-cn-route.teacher2040.com","port":31206,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"Relay_🇨🇳CN-🇯🇵JP_13","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"US-v2cross_com_1","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"US-v2cross_com_1","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
+  - {"name":"v2cross_com+-+日本东京Linode数据中心+21_2","server":"jp.567568.ml","port":443,"type":"trojan","country":"v2cross_com+-+日本东京Linode数据中心+21_2","skip-cert-verify":true,"udp":true,"password":"1293e022-6347-4d7e-8425-e65576b6ae0e"}
+  - {"name":"v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3","server":"jgwld2.gaox.ml","port":443,"type":"trojan","country":"v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3","skip-cert-verify":true,"udp":true,"password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157"}
+  - {"name":"🇦🇺_AU_澳大利亚_4","server":"jgwxn2.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_4","skip-cert-verify":true,"udp":true,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26"}
+  - {"name":"🇦🇺_AU_澳大利亚_5","server":"jgwxn1.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_5","skip-cert-verify":true,"udp":true,"password":"0f715619-0037-4358-a7c6-958106bc6b49"}
+  - {"name":"🇦🇺_AU_澳大利亚_6","server":"jgwxn4.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_6","skip-cert-verify":true,"udp":true,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819"}
+  - {"name":"🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079","server":"jgwdb3.gaox.ml","port":443,"type":"trojan","country":"🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079","skip-cert-verify":true,"udp":true,"password":"8d2d5953-d649-4034-94f2-72f2df2623da"}
+  - {"name":"🇯🇵_JP_日本_8","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"🇯🇵_JP_日本_8","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
+  - {"name":"🇺🇸_US_美国_9","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_9","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
+  - {"name":"🇺🇸_US_美国_10","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_10","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
   - {"name":"Relay_🇨🇳CN-🇹🇼TW_391","server":"14.29.124.168","port":24010,"type":"ss","country":"Relay_🇨🇳CN-🇹🇼TW_391","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"name":"Relay_🇨🇳CN-🇹🇼TW_406","server":"14.29.124.168","port":24015,"type":"ss","country":"Relay_🇨🇳CN-🇹🇼TW_406","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"Relay_🇨🇳CN-🏁ZZ_436","server":"120.240.48.20","port":38101,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"Relay_🇨🇳CN-🏁ZZ_436","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
-  - {"name":"Relay_🇺🇸US-🇬🇧GB_30","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"d9bf8ba2-c2b9-11ec-8b1e-000017022008","alterId":64,"cipher":"auto","country":"Relay_🇺🇸US-🇬🇧GB_30","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"Relay_🇺🇸US-🇯🇵JP_3691","server":"v2ray.788644.xyz","port":443,"type":"vmess","uuid":"000fe881-b655-4212-b804-b00f9970d5aa","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇯🇵JP_3691","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/happy"}}
-  - {"name":"Relay_🇺🇸US-🇸🇬SG_3703","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇸🇬SG_3703","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"1.ezydfdd.com"}}}
-  - {"name":"TR-v2cross_com_33","server":"tk-nf-route.teacher2060.com","port":31256,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"TR-v2cross_com_33","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"tk-nf-route.teacher2060.com"}}}
-  - {"name":"US-v2cross_com_34","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"US-v2cross_com_34","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
-  - {"name":"US-v2cross_com_35","server":"45.66.159.43","port":26628,"type":"vmess","uuid":"e335e880-c128-11ec-93fa-00163cbed88a","alterId":0,"cipher":"auto","country":"US-v2cross_com_35","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/A4LCl0QX/","headers":{"host":"45.66.159.43"}}}
-  - {"name":"US-v2cross_com_36","server":"uk-nf-route.teacher2040.com","port":31224,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"US-v2cross_com_36","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"uk-nf-route.teacher2040.com"}}}
-  - {"name":"US-v2cross_com_37","server":"45.66.157.174","port":49192,"type":"vmess","uuid":"9451e6e0-c125-11ec-8012-00163c76ea30","alterId":0,"cipher":"auto","country":"US-v2cross_com_37","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/atG37YNW/","headers":{"host":"45.66.157.174"}}}
-  - {"name":"v2cross_com_38","server":"cf.rutracker-cn.com","port":443,"country":"v2cross_com_38","type":"vless","uuid":"e9c14629-fcd5-4584-bb9e-d1431c20ee00","cipher":"auto","skip-cert-verify":true,"tls":true,"path":"/1GDNonF","network":"http"}
-  - {"name":"v2cross_com_39","server":"cg.rutracker-cn.com","port":443,"country":"v2cross_com_39","type":"vless","uuid":"72972da9-d188-40c6-83a6-4ec28fde2c0a","cipher":"auto","skip-cert-verify":true,"tls":true,"path":"/xxPb49hL0C","network":"http"}
-  - {"name":"v2cross_com_40","server":"freestarway.tk","port":443,"type":"vmess","uuid":"68de58a5-2f9f-45e9-cb64-2d87fdf5f031","alterId":0,"cipher":"auto","country":"v2cross_com_40","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"freestarway.tk"}}}
-  - {"name":"v2cross_com-美国CloudFlare节点17_41","server":"1chuan.top","port":443,"type":"vmess","uuid":"fa8f90e0-2fae-4b05-df7a-ea325bc517d8","alterId":0,"cipher":"auto","country":"v2cross_com-美国CloudFlare节点17_41","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/evo","headers":{"host":"1chuan.top"}}}
-  - {"name":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","country":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"138.197.236.77"}}}
-  - {"name":"v2cross_com+-+日本东京Linode数据中心+21_43","server":"jp.567568.ml","port":443,"type":"trojan","country":"v2cross_com+-+日本东京Linode数据中心+21_43","skip-cert-verify":true,"udp":true,"password":"1293e022-6347-4d7e-8425-e65576b6ae0e"}
-  - {"name":"v2cross_com-上海市电信17_44","server":"ingress-i1.onebox6.org","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"v2cross_com-上海市电信17_44","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
-  - {"name":"v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45","server":"jgwld2.gaox.ml","port":443,"type":"trojan","country":"v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45","skip-cert-verify":true,"udp":true,"password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157"}
-  - {"name":"🇦🇺_AU_澳大利亚_46","server":"jgwxn2.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_46","skip-cert-verify":true,"udp":true,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26"}
-  - {"name":"🇦🇺_AU_澳大利亚_47","server":"jgwxn1.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_47","skip-cert-verify":true,"udp":true,"password":"0f715619-0037-4358-a7c6-958106bc6b49"}
-  - {"name":"🇦🇺_AU_澳大利亚_48","server":"jgwxn4.gaox.ml","port":443,"type":"trojan","country":"🇦🇺_AU_澳大利亚_48","skip-cert-verify":true,"udp":true,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819"}
+  - {"name":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411","server":"14.29.124.168","port":24003,"type":"ss","country":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413","server":"14.29.124.168","port":24020,"type":"ss","country":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"name":"defaultName_15","server":"213.183.53.200","port":9033,"type":"ss","country":"defaultName_15","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"name":"defaultName_16","server":"213.183.53.200","port":9043,"type":"ss","country":"defaultName_16","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
   - {"name":"🇦🇺AU_116","server":"185.167.116.253","port":9080,"type":"ss","country":"🇦🇺AU_116","cipher":"aes-256-cfb","password":"VP8ZPxQpJtZRCjfZ"}
   - {"name":"🇦🇺AU_129","server":"185.167.116.252","port":9041,"type":"ss","country":"🇦🇺AU_129","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
   - {"name":"🇦🇺AU_49","server":"185.167.116.253","port":9038,"type":"ss","country":"🇦🇺AU_49","cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
   - {"name":"🇦🇺AU_72","server":"185.167.116.253","port":9019,"type":"ss","country":"🇦🇺AU_72","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411","server":"14.29.124.168","port":24003,"type":"ss","country":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413","server":"14.29.124.168","port":24020,"type":"ss","country":"🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"name":"🇨🇳CN_39TGatpeekfun_55","server":"120.240.48.19","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"🇨🇳CN_39TGatpeekfun_55","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
-  - {"name":"🇨🇳CN_46TGatpeekfun_56","server":"183.240.181.57","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"🇨🇳CN_46TGatpeekfun_56","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
   - {"name":"🇬🇧GB_852","server":"185.167.117.171","port":9003,"type":"ss","country":"🇬🇧GB_852","cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
   - {"name":"🇮🇸IS_997","server":"37.235.49.158","port":989,"type":"ss","country":"🇮🇸IS_997","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
-  - {"name":"🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079","server":"jgwdb3.gaox.ml","port":443,"type":"trojan","country":"🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079","skip-cert-verify":true,"udp":true,"password":"8d2d5953-d649-4034-94f2-72f2df2623da"}
-  - {"name":"🇯🇵_JP_日本_60","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"🇯🇵_JP_日本_60","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
-  - {"name":"🇱🇹_61","server":"213.183.53.177","port":9000,"type":"ss","country":"🇱🇹_61","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"name":"🇱🇹_62","server":"213.183.53.200","port":9093,"type":"ss","country":"🇱🇹_62","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
-  - {"name":"🇱🇹_63","server":"213.183.53.200","port":9046,"type":"ss","country":"🇱🇹_63","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"name":"🇳🇱_64","server":"213.183.51.171","port":9040,"type":"ss","country":"🇳🇱_64","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
-  - {"name":"🇳🇱_65","server":"213.183.51.171","port":9014,"type":"ss","country":"🇳🇱_65","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"name":"🇳🇱_66","server":"213.183.51.171","port":9020,"type":"ss","country":"🇳🇱_66","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"name":"🇳🇱_67","server":"213.183.51.171","port":9084,"type":"ss","country":"🇳🇱_67","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇳🇱_68","server":"213.183.51.171","port":9031,"type":"ss","country":"🇳🇱_68","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"name":"🇳🇱_69","server":"213.183.51.171","port":9042,"type":"ss","country":"🇳🇱_69","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"name":"🇳🇱_NL_荷兰_70","server":"213.183.51.171","port":9032,"type":"ss","country":"🇳🇱_NL_荷兰_70","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"🇳🇱_NL_荷兰_71","server":"213.183.51.171","port":9070,"type":"ss","country":"🇳🇱_NL_荷兰_71","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇳🇱_NL_荷兰_72","server":"152.70.49.174","port":55988,"type":"vmess","uuid":"2c644a6a-5817-40b2-b149-2f3ac7eb2447","alterId":0,"cipher":"auto","country":"🇳🇱_NL_荷兰_72","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇱🇹_23","server":"213.183.53.177","port":9000,"type":"ss","country":"🇱🇹_23","cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
+  - {"name":"🇱🇹_24","server":"213.183.53.200","port":9093,"type":"ss","country":"🇱🇹_24","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇱🇹_25","server":"213.183.53.200","port":9046,"type":"ss","country":"🇱🇹_25","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"🇳🇱_26","server":"213.183.51.171","port":9040,"type":"ss","country":"🇳🇱_26","cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"name":"🇳🇱_27","server":"213.183.51.171","port":9014,"type":"ss","country":"🇳🇱_27","cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"name":"🇳🇱_28","server":"213.183.51.171","port":9020,"type":"ss","country":"🇳🇱_28","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"name":"🇳🇱_29","server":"213.183.51.171","port":9084,"type":"ss","country":"🇳🇱_29","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇳🇱_30","server":"213.183.51.171","port":9031,"type":"ss","country":"🇳🇱_30","cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"name":"🇳🇱_31","server":"213.183.51.171","port":9042,"type":"ss","country":"🇳🇱_31","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"name":"🇳🇱_NL_荷兰_32","server":"213.183.51.171","port":9032,"type":"ss","country":"🇳🇱_NL_荷兰_32","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇳🇱_NL_荷兰_33","server":"213.183.51.171","port":9070,"type":"ss","country":"🇳🇱_NL_荷兰_33","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
   - {"name":"🇳🇱NL_1277","server":"213.183.51.171","port":9041,"type":"ss","country":"🇳🇱NL_1277","cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
   - {"name":"🇳🇱NL_1285","server":"213.183.51.171","port":9094,"type":"ss","country":"🇳🇱NL_1285","cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
   - {"name":"🇳🇱NL_1293","server":"213.183.51.172","port":9033,"type":"ss","country":"🇳🇱NL_1293","cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
   - {"name":"🇳🇱NL_1376","server":"213.183.51.172","port":9064,"type":"ss","country":"🇳🇱NL_1376","cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"name":"🇷🇴_77","server":"185.126.116.125","port":9018,"type":"ss","country":"🇷🇴_77","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"name":"🇷🇺_78","server":"217.30.10.67","port":9032,"type":"ss","country":"🇷🇺_78","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"name":"🇷🇺_79","server":"217.30.10.64","port":9007,"type":"ss","country":"🇷🇺_79","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
-  - {"name":"🇷🇺_80","server":"217.30.10.65","port":9011,"type":"ss","country":"🇷🇺_80","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
-  - {"name":"🇷🇺_81","server":"217.30.10.66","port":9057,"type":"ss","country":"🇷🇺_81","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"🇷🇺_82","server":"217.30.10.64","port":9006,"type":"ss","country":"🇷🇺_82","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
-  - {"name":"🇷🇺_83","server":"217.30.10.64","port":9024,"type":"ss","country":"🇷🇺_83","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
-  - {"name":"🇷🇺_84","server":"217.30.10.67","port":9037,"type":"ss","country":"🇷🇺_84","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
-  - {"name":"🇷🇺_85","server":"217.30.10.65","port":9084,"type":"ss","country":"🇷🇺_85","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"name":"🇷🇺_86","server":"217.30.10.66","port":9019,"type":"ss","country":"🇷🇺_86","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":"🇷🇺_87","server":"217.30.10.64","port":9057,"type":"ss","country":"🇷🇺_87","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"name":"🇷🇺_88","server":"217.30.10.66","port":9045,"type":"ss","country":"🇷🇺_88","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"name":"🇷🇺_89","server":"217.30.10.65","port":9093,"type":"ss","country":"🇷🇺_89","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
-  - {"name":"🇷🇺_90","server":"217.30.10.65","port":9026,"type":"ss","country":"🇷🇺_90","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"name":"🇷🇺_91","server":"217.30.10.64","port":9037,"type":"ss","country":"🇷🇺_91","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
-  - {"name":"🇷🇺_92","server":"217.30.10.65","port":9019,"type":"ss","country":"🇷🇺_92","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"name":"🇷🇺_93","server":"217.30.10.64","port":9070,"type":"ss","country":"🇷🇺_93","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"name":"🇷🇺_94","server":"217.30.10.67","port":9079,"type":"ss","country":"🇷🇺_94","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"name":"🇷🇺_95","server":"217.30.10.64","port":9084,"type":"ss","country":"🇷🇺_95","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇷🇴_38","server":"185.126.116.125","port":9018,"type":"ss","country":"🇷🇴_38","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
+  - {"name":"🇷🇺_39","server":"217.30.10.67","port":9032,"type":"ss","country":"🇷🇺_39","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
+  - {"name":"🇷🇺_40","server":"217.30.10.64","port":9007,"type":"ss","country":"🇷🇺_40","cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
+  - {"name":"🇷🇺_41","server":"217.30.10.65","port":9011,"type":"ss","country":"🇷🇺_41","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
+  - {"name":"🇷🇺_42","server":"217.30.10.66","port":9057,"type":"ss","country":"🇷🇺_42","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇷🇺_43","server":"217.30.10.64","port":9006,"type":"ss","country":"🇷🇺_43","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq"}
+  - {"name":"🇷🇺_44","server":"217.30.10.64","port":9024,"type":"ss","country":"🇷🇺_44","cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
+  - {"name":"🇷🇺_45","server":"217.30.10.67","port":9037,"type":"ss","country":"🇷🇺_45","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇷🇺_46","server":"217.30.10.65","port":9084,"type":"ss","country":"🇷🇺_46","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"name":"🇷🇺_47","server":"217.30.10.66","port":9019,"type":"ss","country":"🇷🇺_47","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇷🇺_48","server":"217.30.10.64","port":9057,"type":"ss","country":"🇷🇺_48","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
+  - {"name":"🇷🇺_49","server":"217.30.10.66","port":9045,"type":"ss","country":"🇷🇺_49","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"name":"🇷🇺_50","server":"217.30.10.65","port":9093,"type":"ss","country":"🇷🇺_50","cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
+  - {"name":"🇷🇺_51","server":"217.30.10.65","port":9026,"type":"ss","country":"🇷🇺_51","cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
+  - {"name":"🇷🇺_52","server":"217.30.10.64","port":9037,"type":"ss","country":"🇷🇺_52","cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"name":"🇷🇺_53","server":"217.30.10.65","port":9019,"type":"ss","country":"🇷🇺_53","cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"name":"🇷🇺_54","server":"217.30.10.64","port":9070,"type":"ss","country":"🇷🇺_54","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"name":"🇷🇺_55","server":"217.30.10.67","port":9079,"type":"ss","country":"🇷🇺_55","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"name":"🇷🇺_56","server":"217.30.10.64","port":9084,"type":"ss","country":"🇷🇺_56","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
   - {"name":"🇷🇺RU_1398","server":"217.30.10.65","port":9046,"type":"ss","country":"🇷🇺RU_1398","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
   - {"name":"🇷🇺RU_1408","server":"217.30.10.67","port":9020,"type":"ss","country":"🇷🇺RU_1408","cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
   - {"name":"🇷🇺RU_1415","server":"217.30.10.66","port":9098,"type":"ss","country":"🇷🇺RU_1415","cipher":"aes-256-cfb","password":"aLpQtfEZe445QyHk"}
@@ -119,114 +80,112 @@ proxies:
   - {"name":"🇷🇺RU_1614","server":"217.30.10.65","port":9042,"type":"ss","country":"🇷🇺RU_1614","cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
   - {"name":"🇷🇺RU_1616","server":"217.30.10.67","port":9025,"type":"ss","country":"🇷🇺RU_1616","cipher":"aes-256-cfb","password":"XPtzA9sCug3SPR4c"}
   - {"name":"🇷🇺RU_1621","server":"217.30.10.65","port":9056,"type":"ss","country":"🇷🇺RU_1621","cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"name":"🇷🇺RU_1625","server":"2.56.241.14","port":13955,"type":"vmess","uuid":"1e2f3cfc-16e5-4304-d441-db91088a91dc","alterId":0,"cipher":"auto","country":"🇷🇺RU_1625","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
   - {"name":"🇷🇺RU_703","server":"217.30.10.64","port":9015,"type":"ss","country":"🇷🇺RU_703","cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"name":"🇺🇸_US_美国_117","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_117","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
-  - {"name":"🇺🇸_US_美国_118","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"🇺🇸_US_美国_118","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
-  - {"name":"🇺🇸_US_美国_119","server":"SS-NODE-5-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"🇺🇸_US_美国_119","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
+  - {"name":"CA-v2cross_com_77","server":"ca-nf-route.teacher2050.com","port":31250,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"CA-v2cross_com_77","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"ca-nf-route.teacher2050.com"}}}
+  - {"name":"CN-v2cross_com_78","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_78","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"CN-v2cross_com_79","server":"43.154.102.246","port":39509,"type":"vmess","uuid":"9555680d-9857-4266-a97b-cb8b393d6e98","alterId":0,"cipher":"auto","country":"CN-v2cross_com_79","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"CN-v2cross_com_80","server":"in-v1.sdgdn.com","port":50301,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_80","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-v1.sdgdn.com"}}}
+  - {"name":"CN-v2cross_com_81","server":"in-v1.sdgdn.com","port":50401,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_81","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8"}}
+  - {"name":"CN-v2cross_com_82","server":"43.154.46.228","port":49930,"type":"vmess","uuid":"051088e3-f62e-4cf6-a199-ab98adcb822b","alterId":0,"cipher":"auto","country":"CN-v2cross_com_82","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"43.154.46.228"}}}
+  - {"name":"CN-v2cross_com_83","server":"in-v1.sdgdn.com","port":50205,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_83","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
+  - {"name":"CN-v2cross_com_84","server":"in-v1.sdgdn.com","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_84","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"CN-v2cross_com_85","server":"in-v1.sdgdn.com","port":50701,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"CN-v2cross_com_85","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.ripaojiedian"}}}
+  - {"name":"CN-v2cross_com_86","server":"120.240.48.20","port":38102,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_86","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"CN-v2cross_com_87","server":"120.240.48.20","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"CN-v2cross_com_87","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"CN-v2cross_com_88","server":"412sgsg.fans8.xyz","port":443,"type":"vmess","uuid":"82a96743-115b-356d-90ae-2928f32d8958","alterId":2,"cipher":"auto","country":"CN-v2cross_com_88","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"412sgsg.fans8.xyz"}}}
+  - {"name":"CN-v2cross_com_89","server":"sg-cn-route.teacher2050.com","port":31208,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"CN-v2cross_com_89","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"sg-cn-route.teacher2050.com"}}}
+  - {"name":"DE-v2cross_com_90","server":"de-nf-route.teacher2040.com","port":31251,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"DE-v2cross_com_90","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"de-nf-route.teacher2040.com"}}}
+  - {"name":"FR-v2cross_com_91","server":"fr-nf-route.teacher2050.com","port":31225,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"FR-v2cross_com_91","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"fr-nf-route.teacher2050.com"}}}
+  - {"name":"FR-v2cross_com_92","server":"fr-1-fast.teacher2050.com","port":31318,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"FR-v2cross_com_92","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"fr-1-fast.teacher2050.com"}}}
+  - {"name":"ID-v2cross_com_93","server":"103.28.23.162","port":12300,"type":"vmess","uuid":"55dc9daf-ea0e-38f1-aa82-ed76c8b19df2","alterId":0,"cipher":"auto","country":"ID-v2cross_com_93","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/apple-home","headers":{"host":"in.academicpapers.eu.org"}}}
+  - {"name":"IN-v2cross_com_94","server":"in-1-fast.teacher2060.com","port":31221,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"IN-v2cross_com_94","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"in-1-fast.teacher2060.com"}}}
+  - {"name":"LU-v2cross_com_95","server":"ru-1-fast.teacher2060.com","port":31319,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"LU-v2cross_com_95","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"ru-1-fast.teacher2060.com"}}}
+  - {"name":"NL-v2cross_com_96","server":"nl-nf-route.teacher2040.com","port":31255,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"NL-v2cross_com_96","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"nl-nf-route.teacher2040.com"}}}
+  - {"name":"Pool_🇳🇱NL_1287","server":"85.209.159.107","port":20403,"type":"vmess","uuid":"b3b08b1c-c0a4-11ec-8151-00163c3fe0cd","alterId":0,"cipher":"auto","country":"Pool_🇳🇱NL_1287","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/Asq7j5Mb/","headers":{"host":"85.209.159.107"}}}
+  - {"name":"Relay_🇨🇦CA-🇨🇦CA_393","server":"417tw.fans8.xyz","port":443,"type":"vmess","uuid":"82a96743-115b-356d-90ae-2928f32d8958","alterId":2,"cipher":"auto","country":"Relay_🇨🇦CA-🇨🇦CA_393","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"417tw.fans8.xyz"}}}
+  - {"name":"Relay_🇨🇳CN-🇯🇵JP_13","server":"jp-cn-route.teacher2040.com","port":31206,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"Relay_🇨🇳CN-🇯🇵JP_13","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"Relay_🇨🇳CN-🏁ZZ_436","server":"120.240.48.20","port":38101,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"Relay_🇨🇳CN-🏁ZZ_436","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"Relay_🇺🇸US-🇬🇧GB_30","server":"app.ssfree.ru","port":443,"type":"vmess","uuid":"d9bf8ba2-c2b9-11ec-8b1e-000017022008","alterId":64,"cipher":"auto","country":"Relay_🇺🇸US-🇬🇧GB_30","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
+  - {"name":"Relay_🇺🇸US-🇯🇵JP_3691","server":"v2ray.788644.xyz","port":443,"type":"vmess","uuid":"000fe881-b655-4212-b804-b00f9970d5aa","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇯🇵JP_3691","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/happy"}}
+  - {"name":"Relay_🇺🇸US-🇸🇬SG_3703","server":"1.ezydfdd.com","port":443,"type":"vmess","uuid":"0e5b46b6-699d-4aca-8fb3-a8e7b4270ed9","alterId":0,"cipher":"auto","country":"Relay_🇺🇸US-🇸🇬SG_3703","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/qwe","headers":{"host":"1.ezydfdd.com"}}}
+  - {"name":"TR-v2cross_com_104","server":"tk-nf-route.teacher2060.com","port":31256,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"TR-v2cross_com_104","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"tk-nf-route.teacher2060.com"}}}
+  - {"name":"US-v2cross_com_105","server":"45.66.159.43","port":26628,"type":"vmess","uuid":"e335e880-c128-11ec-93fa-00163cbed88a","alterId":0,"cipher":"auto","country":"US-v2cross_com_105","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/A4LCl0QX/","headers":{"host":"45.66.159.43"}}}
+  - {"name":"US-v2cross_com_106","server":"uk-nf-route.teacher2040.com","port":31224,"type":"vmess","uuid":"B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33","alterId":0,"cipher":"auto","country":"US-v2cross_com_106","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"uk-nf-route.teacher2040.com"}}}
+  - {"name":"US-v2cross_com_107","server":"45.66.157.174","port":49192,"type":"vmess","uuid":"9451e6e0-c125-11ec-8012-00163c76ea30","alterId":0,"cipher":"auto","country":"US-v2cross_com_107","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/atG37YNW/","headers":{"host":"45.66.157.174"}}}
+  - {"name":"v2cross_com_108","server":"freestarway.tk","port":443,"type":"vmess","uuid":"68de58a5-2f9f-45e9-cb64-2d87fdf5f031","alterId":0,"cipher":"auto","country":"v2cross_com_108","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"freestarway.tk"}}}
+  - {"name":"v2cross_com-美国CloudFlare节点17_109","server":"1chuan.top","port":443,"type":"vmess","uuid":"fa8f90e0-2fae-4b05-df7a-ea325bc517d8","alterId":0,"cipher":"auto","country":"v2cross_com-美国CloudFlare节点17_109","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/evo","headers":{"host":"1chuan.top"}}}
+  - {"name":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110","server":"138.197.236.77","port":443,"type":"vmess","uuid":"3579436c-b37e-11eb-8529-0242ac130003","alterId":0,"cipher":"auto","country":"v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"138.197.236.77"}}}
+  - {"name":"v2cross_com-上海市电信17_111","server":"ingress-i1.onebox6.org","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"v2cross_com-上海市电信17_111","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
+  - {"name":"🇨🇳CN_39TGatpeekfun_112","server":"120.240.48.19","port":38106,"type":"vmess","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":1,"cipher":"auto","country":"🇨🇳CN_39TGatpeekfun_112","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}}}
+  - {"name":"🇨🇳CN_46TGatpeekfun_113","server":"183.240.181.57","port":50206,"type":"vmess","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":1,"cipher":"auto","country":"🇨🇳CN_46TGatpeekfun_113","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"telegram.channel.p2psharing"}}}
+  - {"name":"🇳🇱_NL_荷兰_114","server":"152.70.49.174","port":55988,"type":"vmess","uuid":"2c644a6a-5817-40b2-b149-2f3ac7eb2447","alterId":0,"cipher":"auto","country":"🇳🇱_NL_荷兰_114","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"🇷🇺RU_1625","server":"2.56.241.14","port":13955,"type":"vmess","uuid":"1e2f3cfc-16e5-4304-d441-db91088a91dc","alterId":0,"cipher":"auto","country":"🇷🇺RU_1625","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"使用前更新订阅获取最新可用节点！_116","server":"193.134.209.226","port":58377,"type":"vmess","uuid":"7cb1e6e5-709c-4b2a-8e21-6cbad726a0d5","alterId":0,"cipher":"auto","country":"使用前更新订阅获取最新可用节点！_116","skip-cert-verify":true,"tls":false,"network":"tcp"}
+  - {"name":"NL-v2cross_com_117","server":"45.147.160.86","port":813,"type":"ss","country":"NL-v2cross_com_117","cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
+  - {"name":"🇺🇸_US_美国_118","server":"SS-NODE-5-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"🇺🇸_US_美国_118","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
   - {"name":"🇺🇸US_1699","server":"SS-NODE-4-B.GFWAIRPORT.NET","port":50001,"type":"ss","country":"🇺🇸US_1699","cipher":"chacha20-ietf-poly1305","password":"9e7256ac-f3bb-4f60-830f-48e75191c207"}
-  - {"name":"使用前更新订阅获取最新可用节点！_121","server":"193.134.209.226","port":58377,"type":"vmess","uuid":"7cb1e6e5-709c-4b2a-8e21-6cbad726a0d5","alterId":0,"cipher":"auto","country":"使用前更新订阅获取最新可用节点！_121","skip-cert-verify":true,"tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -246,114 +205,112 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -373,114 +330,112 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -500,113 +455,111 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -626,113 +579,111 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -752,113 +703,111 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -878,13 +827,50 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -907,101 +893,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - CA-v2cross_com_3
-      - CN-v2cross_com_4
-      - CN-v2cross_com_5
-      - CN-v2cross_com_6
-      - CN-v2cross_com_7
-      - CN-v2cross_com_8
-      - CN-v2cross_com_9
-      - CN-v2cross_com_10
-      - CN-v2cross_com_11
-      - CN-v2cross_com_12
-      - CN-v2cross_com_13
-      - CN-v2cross_com_14
-      - CN-v2cross_com_15
-      - DE-v2cross_com_16
-      - FR-v2cross_com_17
-      - FR-v2cross_com_18
-      - ID-v2cross_com_19
-      - IN-v2cross_com_20
-      - LU-v2cross_com_21
-      - NL-v2cross_com_22
-      - NL-v2cross_com_23
-      - Pool_🇳🇱NL_1287
-      - Relay_🇨🇦CA-🇨🇦CA_393
-      - Relay_🇨🇳CN-🇯🇵JP_13
+      - US-v2cross_com_1
+      - v2cross_com+-+日本东京Linode数据中心+21_2
+      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_3
+      - 🇦🇺_AU_澳大利亚_4
+      - 🇦🇺_AU_澳大利亚_5
+      - 🇦🇺_AU_澳大利亚_6
+      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
+      - 🇯🇵_JP_日本_8
+      - 🇺🇸_US_美国_9
+      - 🇺🇸_US_美国_10
       - Relay_🇨🇳CN-🇹🇼TW_391
       - Relay_🇨🇳CN-🇹🇼TW_406
-      - Relay_🇨🇳CN-🏁ZZ_436
-      - Relay_🇺🇸US-🇬🇧GB_30
-      - Relay_🇺🇸US-🇯🇵JP_3691
-      - Relay_🇺🇸US-🇸🇬SG_3703
-      - TR-v2cross_com_33
-      - US-v2cross_com_34
-      - US-v2cross_com_35
-      - US-v2cross_com_36
-      - US-v2cross_com_37
-      - v2cross_com_38
-      - v2cross_com_39
-      - v2cross_com_40
-      - v2cross_com-美国CloudFlare节点17_41
-      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_42
-      - v2cross_com+-+日本东京Linode数据中心+21_43
-      - v2cross_com-上海市电信17_44
-      - v2cross_com+-+英国伦敦Oracle云计算数据中心+32_45
-      - 🇦🇺_AU_澳大利亚_46
-      - 🇦🇺_AU_澳大利亚_47
-      - 🇦🇺_AU_澳大利亚_48
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
+      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
+      - defaultName_15
+      - defaultName_16
       - 🇦🇺AU_116
       - 🇦🇺AU_129
       - 🇦🇺AU_49
       - 🇦🇺AU_72
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_411
-      - 🇨🇳+【tgatfreevpn8】_🇨🇳CN-🇹🇼TW_413
-      - 🇨🇳CN_39TGatpeekfun_55
-      - 🇨🇳CN_46TGatpeekfun_56
       - 🇬🇧GB_852
       - 🇮🇸IS_997
-      - 🇯🇵+【tgatfreevpn8】_🇯🇵JP-🇯🇵JP_1079
-      - 🇯🇵_JP_日本_60
-      - 🇱🇹_61
-      - 🇱🇹_62
-      - 🇱🇹_63
-      - 🇳🇱_64
-      - 🇳🇱_65
-      - 🇳🇱_66
-      - 🇳🇱_67
-      - 🇳🇱_68
-      - 🇳🇱_69
-      - 🇳🇱_NL_荷兰_70
-      - 🇳🇱_NL_荷兰_71
-      - 🇳🇱_NL_荷兰_72
+      - 🇱🇹_23
+      - 🇱🇹_24
+      - 🇱🇹_25
+      - 🇳🇱_26
+      - 🇳🇱_27
+      - 🇳🇱_28
+      - 🇳🇱_29
+      - 🇳🇱_30
+      - 🇳🇱_31
+      - 🇳🇱_NL_荷兰_32
+      - 🇳🇱_NL_荷兰_33
       - 🇳🇱NL_1277
       - 🇳🇱NL_1285
       - 🇳🇱NL_1293
       - 🇳🇱NL_1376
-      - 🇷🇴_77
-      - 🇷🇺_78
-      - 🇷🇺_79
-      - 🇷🇺_80
-      - 🇷🇺_81
-      - 🇷🇺_82
-      - 🇷🇺_83
-      - 🇷🇺_84
-      - 🇷🇺_85
-      - 🇷🇺_86
-      - 🇷🇺_87
-      - 🇷🇺_88
-      - 🇷🇺_89
-      - 🇷🇺_90
-      - 🇷🇺_91
-      - 🇷🇺_92
-      - 🇷🇺_93
-      - 🇷🇺_94
-      - 🇷🇺_95
+      - 🇷🇴_38
+      - 🇷🇺_39
+      - 🇷🇺_40
+      - 🇷🇺_41
+      - 🇷🇺_42
+      - 🇷🇺_43
+      - 🇷🇺_44
+      - 🇷🇺_45
+      - 🇷🇺_46
+      - 🇷🇺_47
+      - 🇷🇺_48
+      - 🇷🇺_49
+      - 🇷🇺_50
+      - 🇷🇺_51
+      - 🇷🇺_52
+      - 🇷🇺_53
+      - 🇷🇺_54
+      - 🇷🇺_55
+      - 🇷🇺_56
       - 🇷🇺RU_1398
       - 🇷🇺RU_1408
       - 🇷🇺RU_1415
@@ -1021,13 +968,50 @@ proxy-groups:
       - 🇷🇺RU_1614
       - 🇷🇺RU_1616
       - 🇷🇺RU_1621
-      - 🇷🇺RU_1625
       - 🇷🇺RU_703
-      - 🇺🇸_US_美国_117
+      - CA-v2cross_com_77
+      - CN-v2cross_com_78
+      - CN-v2cross_com_79
+      - CN-v2cross_com_80
+      - CN-v2cross_com_81
+      - CN-v2cross_com_82
+      - CN-v2cross_com_83
+      - CN-v2cross_com_84
+      - CN-v2cross_com_85
+      - CN-v2cross_com_86
+      - CN-v2cross_com_87
+      - CN-v2cross_com_88
+      - CN-v2cross_com_89
+      - DE-v2cross_com_90
+      - FR-v2cross_com_91
+      - FR-v2cross_com_92
+      - ID-v2cross_com_93
+      - IN-v2cross_com_94
+      - LU-v2cross_com_95
+      - NL-v2cross_com_96
+      - Pool_🇳🇱NL_1287
+      - Relay_🇨🇦CA-🇨🇦CA_393
+      - Relay_🇨🇳CN-🇯🇵JP_13
+      - Relay_🇨🇳CN-🏁ZZ_436
+      - Relay_🇺🇸US-🇬🇧GB_30
+      - Relay_🇺🇸US-🇯🇵JP_3691
+      - Relay_🇺🇸US-🇸🇬SG_3703
+      - TR-v2cross_com_104
+      - US-v2cross_com_105
+      - US-v2cross_com_106
+      - US-v2cross_com_107
+      - v2cross_com_108
+      - v2cross_com-美国CloudFlare节点17_109
+      - v2cross_com-美国加利福尼亚州旧金山DigitalOcean数据中心23_110
+      - v2cross_com-上海市电信17_111
+      - 🇨🇳CN_39TGatpeekfun_112
+      - 🇨🇳CN_46TGatpeekfun_113
+      - 🇳🇱_NL_荷兰_114
+      - 🇷🇺RU_1625
+      - 使用前更新订阅获取最新可用节点！_116
+      - NL-v2cross_com_117
       - 🇺🇸_US_美国_118
-      - 🇺🇸_US_美国_119
       - 🇺🇸US_1699
-      - 使用前更新订阅获取最新可用节点！_121
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
