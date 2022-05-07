@@ -310,7 +310,6 @@ proxies:
   - {name: 'US_3247', server: '172.99.190.50', port: 7306, type: ss, country: 'US_3247', cipher: 'aes-256-gcm', password: 'FoOiGlkAA9yPEGP'}
   - {name: 'NL_452', server: '213.183.51.172', port: 9070, type: ss, country: 'NL_452', cipher: 'aes-256-cfb', password: 'bf7v334KKDV3YDhH'}
   - {name: 'RO_1393', server: '185.126.116.124', port: 9050, type: ss, country: 'RO_1393', cipher: 'aes-256-cfb', password: 'FG5ddLsMPbV5CutE'}
-  - {name: '%%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311', server: '185.167.117.171', port: 9050, type: ss, country: '%%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311', cipher: 'aes-256-cfb', password: 'FG5ddLsMPbV5CutE'}
   - {name: 'DE_611', server: '5.183.179.166', port: 9050, type: ss, country: 'DE_611', cipher: 'aes-256-cfb', password: 'FG5ddLsMPbV5CutE'}
   - {name: 'RU_二爷翻墙+https://1808_ga+节点_371', server: '213.183.53.200', port: 9084, type: ss, country: 'RU_二爷翻墙+https://1808_ga+节点_371', cipher: 'aes-256-cfb', password: 'c3NtHJ5ujV2tGDfj'}
   - {name: 'DE_674', server: '5.183.179.166', port: 9056, type: ss, country: 'DE_674', cipher: 'aes-256-cfb', password: 'rNBfNuuANFCAk7KB'}
@@ -321,7 +320,6 @@ proxies:
   - {name: 'GB_927', server: '82.145.41.125', port: 6679, type: ss, country: 'GB_927', cipher: 'aes-256-gcm', password: 'TEzjfAYq2IjtuoS'}
   - {name: 'RU_二爷翻墙+https://1808_ga+节点_377', server: '213.183.53.177', port: 9057, type: ss, country: 'RU_二爷翻墙+https://1808_ga+节点_377', cipher: 'aes-256-cfb', password: 'wjTugX3ZtHMB9c3Z'}
   - {name: 'RU_二爷翻墙+https://1808_ga+节点_378', server: '213.183.53.177', port: 9040, type: ss, country: 'RU_二爷翻墙+https://1808_ga+节点_378', cipher: 'aes-256-cfb', password: 'p9z5BVADH2YFs3MN'}
-  - {name: '%%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322', server: '185.167.117.171', port: 9057, type: ss, country: '%%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322', cipher: 'aes-256-cfb', password: 'wjTugX3ZtHMB9c3Z'}
   - {name: 'RU_471', server: '213.183.53.200', port: 9046, type: ss, country: 'RU_471', cipher: 'aes-256-cfb', password: 'NvS8N4Vf8qAGPSCL'}
   - {name: 'DE_651', server: '5.183.179.170', port: 9079, type: ss, country: 'DE_651', cipher: 'aes-256-cfb', password: 'TPqX8edgbAURcAMb'}
   - {name: 'RU_二爷翻墙+https://1808_ga+节点_334', server: '213.183.53.177', port: 9003, type: ss, country: 'RU_二爷翻墙+https://1808_ga+节点_334', cipher: 'aes-256-cfb', password: 'JdmRK9gMEqFgs8nP'}
@@ -966,7 +964,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -977,7 +974,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -1622,7 +1618,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -1633,7 +1628,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -2278,7 +2272,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -2289,7 +2282,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -2933,7 +2925,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -2944,7 +2935,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -3588,7 +3578,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -3599,7 +3588,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -4243,7 +4231,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -4254,7 +4241,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
@@ -4915,7 +4901,6 @@ proxy-groups:
       - US_3247
       - NL_452
       - RO_1393
-      - %%D8%EB<'%E1%E9%D1З%CELL%D8[%99%D0%D8ZW%CC_311
       - DE_611
       - RU_二爷翻墙+https://1808_ga+节点_371
       - DE_674
@@ -4926,7 +4911,6 @@ proxy-groups:
       - GB_927
       - RU_二爷翻墙+https://1808_ga+节点_377
       - RU_二爷翻墙+https://1808_ga+节点_378
-      - %%D8%EB<'%E1%E9%D1З%CELM%D5%D8[%99%D0%D8ZW%CC_322
       - RU_471
       - DE_651
       - RU_二爷翻墙+https://1808_ga+节点_334
