@@ -238,7 +238,6 @@ proxies:
   - {name: '_45_77Mb_234', server: '152.89.210.105', port: 9093, type: ss, country: '_45_77Mb_234', cipher: 'aes-256-cfb', password: 'wfLC2y7rzZyCmuyt'}
   - {name: 'RU_537', server: '217.30.10.65', port: 9038, type: ss, country: 'RU_537', cipher: 'aes-256-cfb', password: 'gYCYXfkUQEs2TaJQ'}
   - {name: '_125', server: '217.30.10.66', port: 9050, type: ss, country: '_125', cipher: 'aes-256-cfb', password: 'FG5ddLsMPbV5CutE'}
-  - {name: '%%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237', server: '185.167.117.171', port: 9056, type: ss, country: '%%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237', cipher: 'aes-256-cfb', password: 'rNBfNuuANFCAk7KB'}
   - {name: 'RU_二爷翻墙+https://1808_ga+节点_372', server: '213.183.53.200', port: 9038, type: ss, country: 'RU_二爷翻墙+https://1808_ga+节点_372', cipher: 'aes-256-cfb', password: 'gYCYXfkUQEs2TaJQ'}
   - {name: 'RU_1480', server: '217.30.10.65', port: 9020, type: ss, country: 'RU_1480', cipher: 'aes-256-cfb', password: 'BNmAXXxAHYpTRdzu'}
   - {name: 'ZZ_874', server: '169.197.142.99', port: 3306, type: ss, country: 'ZZ_874', cipher: 'aes-256-gcm', password: 'Y6R9pAtvxxzmGC'}
@@ -895,7 +894,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -1552,7 +1550,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -2209,7 +2206,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -2865,7 +2861,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -3521,7 +3516,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -4177,7 +4171,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
@@ -4850,7 +4843,6 @@ proxy-groups:
       - _45_77Mb_234
       - RU_537
       - _125
-      - %%D8%EB<'%E1%E9%D1З%CELM%95%D8[%99%D0%D8ZW%CC_237
       - RU_二爷翻墙+https://1808_ga+节点_372
       - RU_1480
       - ZZ_874
