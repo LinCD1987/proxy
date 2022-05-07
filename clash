@@ -66,7 +66,6 @@ proxies:
   - {name: 'github_com/v2rayfree-英国3_59', server: '193.123.225.89', port: 38767, type: vmess, uuid: '422c145e-cc52-4226-ddc7-e204111b0ba7', alterId: 0, cipher: auto, country: "github_com/v2rayfree-英国3_59", "skip-cert-verify": true, tls: false, network: 'ws', ws-opts: { path: '/', headers: {host: '193.123.225.89'}} }
   - {name: 'DE_627', server: '5.183.179.140', port: 9018, type: ss, country: 'DE_627', cipher: 'aes-256-cfb', password: 'fG2artUmHfNT2cX7'}
   - {name: 'DE_752', server: '5.183.179.167', port: 9032, type: ss, country: 'DE_752', cipher: 'aes-256-cfb', password: 'UWZQeLRWnkqgkseq'}
-  - {name: '%%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62', server: '185.167.117.171', port: 9041, type: ss, country: '%%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62', cipher: 'aes-256-cfb', password: 'U6qnYRhfyDmn8sgn'}
   - {name: 'RU_22', server: '45.141.102.51', port: 33689, type: vmess, uuid: '5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8', alterId: 0, cipher: auto, country: "RU_22", "skip-cert-verify": true, tls: false, network: 'tcp', ws-opts: { path: '/Asq7j5Mb/', headers: {host: '45.141.102.51'}} }
   - {name: '美国(yudou66_com玉豆分享)_64', server: 'v2ray.wefuckgfw.ga', port: 8443, type: vmess, uuid: 'f4a1167a-ca89-11ec-9385-52ac00ea1411', alterId: 0, cipher: auto, country: "美国(yudou66_com玉豆分享)_64", "skip-cert-verify": true, tls: true, network: 'ws', ws-opts: { path: '/E94olUFf/', headers: {host: 'v2ray.wefuckgfw.ga'}} }
   - {name: 'DE_782', server: '5.183.179.146', port: 9032, type: ss, country: 'DE_782', cipher: 'aes-256-cfb', password: 'UWZQeLRWnkqgkseq'}
@@ -739,7 +738,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -1412,7 +1410,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -2085,7 +2082,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -2757,7 +2753,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -3429,7 +3424,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -4101,7 +4095,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
@@ -4790,7 +4783,6 @@ proxy-groups:
       - github_com/v2rayfree-英国3_59
       - DE_627
       - DE_752
-      - %%D8%EB<'%E1%E9%D1З%CELU%D8[%99%D0%D8ZW%CC_62
       - RU_22
       - 美国(yudou66_com玉豆分享)_64
       - DE_782
