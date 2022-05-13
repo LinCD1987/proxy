@@ -47,7 +47,6 @@ proxies:
     5","port":"57239","uuid":"edf155b8-10e0-4a48-8bfc-6ce2d9f3ff72","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":24090,"name":"Relay-tg+univstar_30"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb","server":"5.183.179.146","port":9079,"name":"DE_658"}
-  - {"type":"vmess","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"v2fly.sab.quest","name":"高速节点购买：v1.mk/vip（浏览器打开）","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.205","port":5004,"name":"‌‌🇨🇦CA_5004+@WangCai_1"}
   - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":24087,"name":"Relay-tg+univstar_18"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8","server":"185.126.116.117","port":9027,"name":"RO_1423"}
@@ -100,7 +99,6 @@ proxies:
   - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25238,"name":"CN_290"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z","server":"213.183.63.218","port":9057,"name":"LT_1116"}
   - {"type":"vmess","ws-opts":{"path":"/liuwei","headers":{"host":"krr1.liuwei01.tk"}},"server":"krr1.liuwei01.tk","name":"US-高速节点购买：v1.mk/vip（浏览器打开）","port":"443","uuid":"d965d82e-b325-44e8-a472-84721a3ab07c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"104.19.3.12","name":"高速节点购买：v1.mk/vip（浏览器打开）","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"CZ_330","server":"cz5.v2ce.com","password":"HTrovQkamDxNfaD5","port":"443","udp":true,"skip-cert-verify":true}
   - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"14.29.124.168","port":25247,"name":"CN_562"}
   - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"169.197.142.99","port":9102,"name":"ZZ_854"}
@@ -583,7 +581,6 @@ proxies:
   - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"198.57.27.225","port":7002,"name":"CA_40"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa","server":"185.126.116.117","port":9011,"name":"RO_1406"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX","server":"217.30.10.65","port":9045,"name":"RU_472"}
-  - {"type":"vmess","ws-opts":{"path":"/vmess-share/?ed=2048","headers":{"host":"ruvds.testx.eu.org"}},"server":"ruvds.testx.eu.org","name":"高速节点购买：v1.mk/vip（浏览器打开）","port":"443","uuid":"0e7036c1-6de1-4a83-ef4f-e0d56c67fa10","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ","server":"217.30.10.65","port":9060,"name":"RU_501"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq","server":"213.183.63.218","port":9032,"name":"LT_1133"}
   - {"type":"ss","cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8","server":"213.183.63.219","port":9027,"name":"LT_1210"}
@@ -657,7 +654,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -706,7 +702,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -1134,7 +1129,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
@@ -1202,7 +1196,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -1251,8 +1244,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
-      - CZ_330
       - CN_562
       - ZZ_854
       - github.com/freefq+-+美国++54
@@ -1679,7 +1670,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
@@ -1747,7 +1737,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -1796,7 +1785,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -2224,7 +2212,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
@@ -2291,7 +2278,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -2340,7 +2326,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -2768,7 +2753,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
@@ -2835,7 +2819,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -2884,7 +2867,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -3379,7 +3361,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -3428,7 +3409,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -3856,7 +3836,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
@@ -3940,7 +3919,6 @@ proxy-groups:
       - github.com/freefq - 美国  5
       - Relay-tg+univstar_30
       - DE_658
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - ‌‌🇨🇦CA_5004+@WangCai_1
       - Relay-tg+univstar_18
       - RO_1423
@@ -3989,7 +3967,6 @@ proxy-groups:
       - CN_290
       - LT_1116
       - US-高速节点购买：v1.mk/vip（浏览器打开）
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - CZ_330
       - CN_562
       - ZZ_854
@@ -4417,7 +4394,6 @@ proxy-groups:
       - CA_40
       - RO_1406
       - RU_472
-      - 高速节点购买：v1.mk/vip（浏览器打开）
       - RU_501
       - LT_1133
       - LT_1210
