@@ -1,596 +1,1429 @@
 proxies:
-  - {name: 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}}
-  - {name: 🇺🇲 美国(油管:破解资源君2.0), server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}}
-  - {name: 🇨🇳 _CN_中国, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国_1219179, server: cacerts.digicert.com, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}}
-  - {name: 🇮🇩 ID印尼(youtube阿伟科技, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /pkhhvws, ws-headers: {Host: amshare.jingledev.me}}
-  - {name: 🇲🇴 澳门_1219089, server: 45.64.22.6, port: 443, type: vmess, uuid: 4ad662ac-aeb5-4f48-d99f-4c0bd425c7ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2wty-zz6fse-jmg54, ws-headers: {Host: nasa.supercloud.ml}}
-  - {name: 未知_1219588, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}}
-  - {name: 🇭🇰 香港_1219026, server: 8.218.86.59, port: 36536, type: vmess, uuid: ae3c56f1-c243-4373-bd65-07fd0569c455, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.86.59]}}}
-  - {name: 🇺🇲 US_154.3.4.48_121820226c7d-187ssr, server: 154.3.4.48, port: 50005, type: ssr, cipher: dummy, password: UHabmcbzb, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇲 美西_圣何塞1_AMD2, server: sonjose12.900513.xyz, port: 18818, type: trojan, password: 8a03bc28-2a33-42c4-be59-30464dbb9954, sni: sonjose12.900513.xyz, skip-cert-verify: false}
-  - {name: 🇨🇭 瑞士_苏黎世1_AMD2, server: ch12.yukiss.eu.org, port: 18818, type: trojan, password: 8a03bc28-2a33-42c4-be59-30464dbb9954, sni: ch12.yukiss.eu.org, skip-cert-verify: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}}
+  - {name: "@SSRSUB-V09-付费推荐:suo.yt/ssrsub", server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}}
   - {name: 🇭🇰 香港_1219039, server: 47.242.146.123, port: 26237, type: vmess, uuid: c8f5a5fd-0a69-4cf6-8fa6-2ea02171d6a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.146.123]}}}
-  - {name: 🇨🇳 中国_1219573, server: 111.45.22.138, port: 9003, type: vmess, uuid: 6f426701-9ff5-3f63-8f83-a8602efe6f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 欧洲(油管:破解资源君), server: cacerts.digicert.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}}
-  - {name: 🇺🇲 美国(TG频道@kxswa), server: 172.67.199.34, port: 2096, type: vmess, uuid: ec1af151-9562-4fb2-919f-5506647aa5dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ezN9pvil/, ws-headers: {Host: v2ray.wefuckgfw.tk}}
-  - {name: github.com/mehdimoghaddam-cell, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DQsafRJn/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
-  - {name: us-trojan.bonds.id:443 2, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
-  - {name: usa-server-02.selfupay.com:443 4, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 5c-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港(TG频道@kxswa), server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: a546b618-8728-4a1e-af2b-6e7d8b74aa74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zh-cn/download, ws-headers: {Host: a.189.cn}}
-  - {name: 🇫🇷 法国_1219002, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}}
-  - {name: 72.167.45.6:443, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
-  - {name: 🇺🇲 -美国(youtube阿伟科技)25, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}}
-  - {name: 🇻🇳 越南(youtube阿伟科技), server: 172.67.199.34, port: 2053, type: vmess, uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DQsafRJn/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
-  - {name: 🇺🇲 美国_1219158, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DQsafRJn/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
-  - {name: 🇺🇲 美国(TG频道@kxswa) 2, server: 135.148.148.4, port: 80, type: trojan, password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd, skip-cert-verify: false}
-  - {name: usa-server-02.selfupay.com:443 3, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: jp-server-02.selfupay.com:443 7, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: P9azqCxQMAaZca3fa58b581353bb375d2ddad0f327938, sni: jp-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: "| 2.02Mb", server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: false}
-  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】, server: hnm.xiaohouzi.club, port: 19362, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224185, server: 8.218.59.157, port: 45981, type: vmess, uuid: dae5ab3b-a026-42ea-b1a8-f5f4827b3341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.59.157]}}}
+  - {name: 🇭🇰 香港_1224032, server: 47.242.33.161, port: 58575, type: vmess, uuid: 1b477a78-8db1-45f8-a793-944482e586f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.33.161]}}}
   - {name: 🇭🇰 香港_1219020, server: 8.218.40.241, port: 61592, type: vmess, uuid: 46ba91fd-34a6-412b-9c3f-1ac91e6b8686, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.40.241]}}}
-  - {name: 184.168.127.50:443 2, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
-  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 2, server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 55956:111111, obfs-param: ""}
-  - {name: 🇺🇲 洛杉矶=tg频道:@bpjzx2=53, server: 27.185.204.53, port: 19233, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾=tg频道:@bpjzx2=41, server: 27.185.204.53, port: 19213, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯联邦(TG频道@kxswa), server: 195.133.10.202, port: 44976, type: trojan, password: tiUobCwrVb, skip-cert-verify: false}
-  - {name: hk-server-02.selfupay.com:443 2, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1Rm-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=49, server: 27.185.204.53, port: 19228, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=44, server: 27.185.204.53, port: 19222, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰_1219030, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
-  - {name: 🇺🇲 洛杉矶=tg频道:@bpjzx2=52, server: 27.185.204.53, port: 19232, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇯🇵 东京=tg频道:@bpjzx2=58, server: 27.185.204.53, port: 19242, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇨🇳 CN_51 v2cross.com, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: "| 2.03Mb", server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
-  - {name: 🇯🇵 东京=tg频道:@bpjzx2=63, server: 27.185.204.53, port: 19247, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇬🇧 伦敦=tg频道:@bpjzx2=65, server: 27.185.204.53, port: 19249, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 071, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /de143-dxddxxj, ws-headers: {Host: v143a.toddns.tk}}
-  - {name: "|443.42Mb", server: 18.140.67.76, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_1219030, server: 8.218.105.233, port: 46148, type: vmess, uuid: 5072f86c-2a3f-430e-861f-bfd965da9b79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.105.233]}}}
-  - {name: 🇺🇲 洛杉矶=tg频道:@bpjzx2=54, server: 27.185.204.53, port: 19235, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=34, server: 27.185.204.53, port: 19202, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
   - {name: 🇭🇰 香港_1219022, server: 8.218.81.81, port: 37003, type: vmess, uuid: 61ef9730-05d4-435d-bdaf-a10c12c7e5c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.81.81]}}}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=47, server: 27.185.204.53, port: 19226, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: us-trojan.bonds.id:443 3, server: us-trojan.bonds.id, port: 443, type: trojan, password: fc39ffa0-2040-11ed-a1ff-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_1219037, server: 47.243.36.34, port: 26953, type: vmess, uuid: 6a1f0373-d449-4305-8e46-e72a789076d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.36.34]}}}
-  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 3, server: 17.yun.tips, port: 48617, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1955:K98a7P, obfs-param: eef621955.microsoft.com}
-  - {name: "| 1.88Mb", server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_1219021, server: 8.218.16.156, port: 28730, type: vmess, uuid: 596d10b4-ce14-4be9-b37b-53c95b9220de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.16.156]}}}
-  - {name: "| 2.18Mb", server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: false}
-  - {name: 🇭🇰 香港_1219028, server: 8.218.59.157, port: 45981, type: vmess, uuid: dae5ab3b-a026-42ea-b1a8-f5f4827b3341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.59.157]}}}
-  - {name: 🇯🇵 东京=tg频道:@bpjzx2=61, server: 27.185.204.53, port: 19245, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: sg-server-01.selfupay.com:443, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: sg-server-01.selfupay.com, skip-cert-verify: false}
-  - {name: 🇺🇲 洛杉矶=tg频道:@bpjzx2=51, server: 27.185.204.53, port: 19231, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=48, server: 27.185.204.53, port: 19227, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=13, server: 222.84.250.35, port: 19226, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯(油管:破解资源君), server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}}
-  - {name: 🇨🇳 台湾01|直连|Lv1 1×, server: tw1.fun513.ga, port: 46567, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tw01, ws-headers: {Host: tw1.fun513.ga}}
-  - {name: 🇺🇲 美国_1219015, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hkaa0, ws-headers: {Host: sg1021.hkaa0.tk}}
-  - {name: 🇺🇲 美国(TG频道@kxswa) 3, server: 135.148.148.4, port: 80, type: trojan, password: 92346756-284e-4de6-904b-16510c38e8b7, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=50, server: 27.185.204.53, port: 19229, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 069, server: v143.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /de143-dxddxxj, ws-headers: {Host: v143.toddns.tk}}
-  - {name: 🇭🇰 香港_1219033, server: 47.242.44.222, port: 63376, type: vmess, uuid: 5343352c-ccc5-43f9-b08a-7425e5cc73dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.44.222]}}}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技), server: 162.159.135.42, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /shirker, ws-headers: {Host: opc-jp.sharecentre.online}}
-  - {name: 伯利兹_1219015, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
-  - {name: 🇻🇳 越南(youtube阿伟科技)68, server: 172.67.199.34, port: 2053, type: vmess, uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /DQsafRJn/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
-  - {name: upay.com:443, server: upay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: upay.com, skip-cert-verify: false}
+  - {name: GetAFreeNode-Vienna, server: 94.177.8.87, port: 21856, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224189, server: 8.218.94.182, port: 24520, type: vmess, uuid: 3ae2a476-6929-4544-8037-1c79f0dfa701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.94.182]}}}
+  - {name: 🇻🇳 越南_1224026, server: 103.231.248.222, port: 443, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 103.231.248.222}}
+  - {name: 🇭🇰 香港_1224025, server: 8.218.86.59, port: 36536, type: vmess, uuid: ae3c56f1-c243-4373-bd65-07fd0569c455, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.86.59]}}}
+  - {name: GetAFreeNode-LosAngeles, server: 88.210.37.46, port: 21856, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224008, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国_1224974, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vmess, ws-headers: {Host: 51.81.220.34}}
   - {name: 🇦🇺 github.com/freefq-澳大利亚悉尼 3, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
-  - {name: 🇺🇲 US 美国(youtube阿伟科技), server: cacerts.digicert.com, port: 2096, type: vmess, uuid: ec1af151-9562-4fb2-919f-5506647aa5dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ezN9pvil/, ws-headers: {Host: v2ray.wefuckgfw.tk}}
-  - {name: 🇺🇲 通用｜圣何塞｜10, server: 137.175.28.5, port: 17805, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 137.175.28.5}}
+  - {name: 🇫🇷 法国_1224048, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}}
+  - {name: 🇫🇷 法国_1219002, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}}
+  - {name: 🇨🇳 中国_1224479, server: V208.bgynd.xyz, port: 26208, type: vmess, uuid: a5fe769e-61e1-3653-a356-696215ca85ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰_1219030, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
+  - {name: 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub, server: www.digitalocean.com, port: 80, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v03.asuka.buzz}}
+  - {name: 🇨🇳 中国_1224487, server: V207.bgynd.xyz, port: 26207, type: vmess, uuid: a5fe769e-61e1-3653-a356-696215ca85ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯(油管:破解资源君), server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}}
+  - {name: 🇺🇲 US【付费推荐：goo.gs/vip】, server: 15.204.31.63, port: 80, type: vmess, uuid: 46073112-cde6-44ad-b5df-f3b9ef90b047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vmess, ws-headers: {Host: 15.204.31.63}}
+  - {name: 🇷🇺 俄罗斯联邦_1224001, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ZPKLSPJjLBEy, ws-headers: {Host: v10a.toddns.tk}}
+  - {name: 🇸🇬 SG【付费推荐：goo.gs/vip】, server: az.mvzaixian3.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /das2, ws-headers: {Host: az.mvzaixian3.com}}
+  - {name: 🇨🇳 中国_1224181, server: ppy-moblev2.gatknqh.cn, port: 26116, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334, server: 172.67.199.34, port: 2096, type: vmess, uuid: 2ae9835e-381b-4228-95df-bce39ee1a4eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ezN9pvil/, ws-headers: {Host: v2ray.wefuckgfw.tk}}
+  - {name: "@SSRSUB-V01-付费推荐:suo.yt/ssrsub", server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2, server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jhndsmlanj11223, ws-headers: {Host: 129.150.44.64}}
+  - {name: 🇨🇳 中国_1224489, server: V210.bgynd.xyz, port: 26210, type: vmess, uuid: a5fe769e-61e1-3653-a356-696215ca85ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 _CN_中国, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国_1224091, server: 192.46.235.103, port: 32625, type: vmess, uuid: eec9b35a-a2d3-4fa3-b402-a23e80fb8b37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [192.46.235.103]}}}
+  - {name: 🇨🇳 中国_1224488, server: V209.bgynd.xyz, port: 26209, type: vmess, uuid: a5fe769e-61e1-3653-a356-696215ca85ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG【付费推荐：goo.gs/vip】 2, server: do5.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /das321, ws-headers: {Host: do5.yyhm9.com}}
+  - {name: 🇨🇳 中国_1224103, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_1224083, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "@SSRSUB-V02-付费推荐:suo.yt/ssrsub", server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: 45.136.244.181}}
+  - {name: 🇰🇷 韩国_1224002, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}}
+  - {name: 伯利兹_1219015, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
+  - {name: 🇺🇲 美国 072, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vmess, ws-headers: {Host: 51.81.220.34}}
+  - {name: 🇷🇺 俄罗斯联邦_1224030, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: 45.136.244.181}}
+  - {name: 🇭🇰 香港_1224181, server: 47.242.146.123, port: 26237, type: vmess, uuid: c8f5a5fd-0a69-4cf6-8fa6-2ea02171d6a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.146.123]}}}
+  - {name: 🇨🇳 中国_1224100, server: 139.186.198.63, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_12241441, server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "@SSRSUB-V35-付费推荐:suo.yt/ssrsub", server: 15.204.31.63, port: 80, type: vmess, uuid: 46073112-cde6-44ad-b5df-f3b9ef90b047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /vmess, ws-headers: {Host: 15.204.31.63}}
+  - {name: 🇺🇲 github.com/freefq-美国CloudFlare节点 44, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}}
+  - {name: 伯利兹_1224006, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
+  - {name: 🇨🇳 中国_12241257, server: ppy-moblev2.gatknqh.cn, port: 26106, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224005, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_12241256, server: ppy-moblev2.gatknqh.cn, port: 26102, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 github.com/freefq-美国CloudFlare节点 13, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
+  - {name: 🇨🇳 中国_12241267, server: ppy-moblev2.gatknqh.cn, port: 26122, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224030, server: 47.242.17.241, port: 44207, type: vmess, uuid: 77c6c520-2d37-495a-a954-c8d056e89053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.17.241]}}}
+  - {name: 🇭🇰 香港_1224176, server: 8.218.16.156, port: 28730, type: vmess, uuid: 596d10b4-ce14-4be9-b37b-53c95b9220de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.16.156]}}}
+  - {name: github.com/freefq-希腊  29, server: do3.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /das212, ws-headers: {Host: do3.yyhm9.com}}
+  - {name: 🇨🇳 中国_12241258, server: ppy-moblev2.gatknqh.cn, port: 26130, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224188, server: 8.218.81.81, port: 37003, type: vmess, uuid: 61ef9730-05d4-435d-bdaf-a10c12c7e5c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.81.81]}}}
+  - {name: 🇰🇷 韩国_1224130, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "@SSRSUB-V21-付费推荐:suo.yt/ssrsub", server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /graphql, ws-headers: {Host: 157.230.36.235}}
+  - {name: 🇨🇳 中国_12241250, server: ppy-moblev2.gatknqh.cn, port: 26126, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_1224002, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /graphql, ws-headers: {Host: 157.230.36.235}}
+  - {name: 伯利兹_1224014, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}}
+  - {name: 🇭🇰 香港_1224013, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_1224102, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_12241265, server: ppy-moblev2.gatknqh.cn, port: 26138, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_1224196, server: ppy-moblev2.gatknqh.cn, port: 26134, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224179, server: 8.218.71.98, port: 63421, type: vmess, uuid: 11f44049-f3d5-492a-8e8d-aa5fc27ffc8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.71.98]}}}
+  - {name: 🇨🇳 中国_12241254, server: ppy-moblev2.gatknqh.cn, port: 26100, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_1224067, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_12241268, server: ppy-moblev2.gatknqh.cn, port: 26098, type: vmess, uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 51.77.158.169}}
+  - {name: github.com/freefq-欧盟  5, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}
+  - {name: 🇨🇳 中国_12241100, server: 116.129.254.181, port: 9000, type: vmess, uuid: 6f426701-9ff5-3f63-8f83-a8602efe6f30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国 019, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 198.244.232.39}}
+  - {name: 🇨🇳 _CN_中国_1, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224183, server: 8.218.72.12, port: 64862, type: vmess, uuid: b9adc9e5-4821-4c9c-ac05-43b3a8fad445, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.72.12]}}}
+  - {name: 🇰🇷 韩国_1224120, server: 150.230.249.15, port: 46842, type: vmess, uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [150.230.249.15]}}}
+  - {name: 🇫🇷 法国_1224002, server: 146.59.92.219, port: 2096, type: vmess, uuid: aca71b13-ec8a-466d-c28f-43516d3cf246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 146.59.92.219}}
+  - {name: 🇺🇲 美国(来源网址：kkzui.com_20, server: ip.xn--9kqr64b73lh3i5nk.ml, port: 443, type: vmess, uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us.xn--94q352ahyl.xyz}}
+  - {name: 🇨🇳 中国_1224015, server: 117.164.185.222, port: 16115, type: vmess, uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_1224134, server: 117.164.185.222, port: 16113, type: vmess, uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 中国_1224135, server: 117.164.185.221, port: 16113, type: vmess, uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224186, server: 8.210.96.225, port: 29596, type: vmess, uuid: a8a20fa9-636e-4e4c-9739-4187beb0bb86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.96.225]}}}
+  - {name: 🇨🇳 中国_1224137, server: 117.164.185.222, port: 16130, type: vmess, uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_1224028, server: 8.218.40.241, port: 61592, type: vmess, uuid: 46ba91fd-34a6-412b-9c3f-1ac91e6b8686, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.40.241]}}}
+  - {name: 🇭🇰 香港_1224177, server: 8.218.64.146, port: 61213, type: vmess, uuid: 22b0bc98-caf1-4519-9140-c26023df64d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.64.146]}}}
+  - {name: 🇺🇲 美国(来源网址：kkzui.com_21, server: ip2.xn--9kqr64b73lh3i5nk.ml, port: 443, type: vmess, uuid: b5f0ac18-e0fa-4437-a3a6-8a457eeaea0d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us.xn--94q352ahyl.xyz}}
+  - {name: 🇨🇳 中国_1224101, server: 124.221.131.176, port: 50797, type: vmess, uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [124.221.131.176]}}}
+  - {name: 2022-12-23, server: 13.250.46.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国_1, server: 43.201.57.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _JP_日本, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 _SG_新加坡, server: 13.250.54.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 +_SG_新加坡, server: 54.254.199.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 +_SG_新加坡 2, server: 18.142.183.235, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: t03.ssrsub.comusa-server-02.selfupay.com:443 4, server: t03.ssrsub.comusa-server-02.selfupay.com, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comusa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 2, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1Rm-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "|443.42Mb", server: 18.140.67.76, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false}
+  - {name: usa-server-02.selfupay.com:443 3, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 184.168.127.50:443 2, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false}
+  - {name: t03.ssrsub.comserver-02.selfupay.com:443, server: t03.ssrsub.comserver-02.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comserver-02.selfupay.com, skip-cert-verify: false}
+  - {name: us-trojan.bonds.id:443 2, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
+  - {name: k-server-02.selfupay.com:443, server: k-server-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: k-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: us-trojan.bonds.id:443, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
+  - {name: t03.ssrsub.comk-server-02.selfupay.com:443, server: t03.ssrsub.comk-server-02.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 6, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa5436ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 27, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f3a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 4, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f32a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: mianfeifq 214, server: 51.83.186.142, port: 65535, type: trojan, password: fa0e4e7a-db70-4aeb-8104-e3120d9259cd, skip-cert-verify: false}
+  - {name: usa-server-02.selfupay.com:443 4, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 5c-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 72.167.45.6:443, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false}
+  - {name: 72.167.45.6:443 2, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯联邦(TG频道@kxswa), server: 195.133.10.202, port: 44976, type: trojan, password: tiUobCwrVb, skip-cert-verify: false}
+  - {name: t03.ssrsub.comhk-server-02.selfupay.com:443 6, server: t03.ssrsub.comhk-server-02.selfupay.com, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comhk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇺🇲 美国(TG频道@kxswa), server: 135.148.148.4, port: 80, type: trojan, password: 92346756-284e-4de6-904b-16510c38e8b7, skip-cert-verify: false}
+  - {name: 🇺🇲 美国(TG频道@kxswa) 2, server: 135.148.148.4, port: 80, type: trojan, password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd, skip-cert-verify: false}
+  - {name: PL【付费推荐：goo.gs/vip】, server: 51.83.186.142, port: 65535, type: trojan, password: 555034c8-6420-45d0-893c-905c02342150, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_339, server: 210.0.158.220, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 10, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef036ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: t03.ssrsub.comerver-02.selfupay.com:443, server: t03.ssrsub.comerver-02.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comerver-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇯🇵 东京=tg频道:@bpjzx2=58, server: 27.185.204.53, port: 19242, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa536ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: t03.ssrsub.comhk-server-02.selfupay.com:443, server: t03.ssrsub.comhk-server-02.selfupay.com, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNF640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comhk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 电报群 https://t.me/JavHD99, server: teradacyou.mike22.net, port: 443, type: trojan, password: 18844%2540zxcvbn, sni: teradacyou.mike22.net, skip-cert-verify: false}
+  - {name: 🇯🇵 东京=tg频道:@bpjzx2=61, server: 27.185.204.53, port: 19245, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
+  - {name: 🇺🇲 US_AzadNet, server: 43.206.67.76, port: 36306, type: trojan, password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb, skip-cert-verify: false}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】, server: hnm.xiaohouzi.club, port: 19362, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178, server: s-g01.beef1917.com, port: 53036, type: trojan, password: a43f9663-8650-4ff5-b49b-86bc51d3c128, sni: s-g01.beef1917.com, skip-cert-verify: false}
+  - {name: "|12.64Mb", server: jp2.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, sni: jp2.91js.pw, skip-cert-verify: false}
+  - {name: 18844@os6.cats22.net:443, server: os6.cats22.net, port: 443, type: trojan, password: 18844%2540zxcvbn, sni: os6.cats22.net, skip-cert-verify: false}
+  - {name: 🇭🇰 香港=tg频道:@bpjzx2=34, server: 27.185.204.53, port: 19202, type: trojan, password: 061fa210-1545-3062-8a8a-e57671f26948, skip-cert-verify: false}
+  - {name: upay.com:443, server: upay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: upay.com, skip-cert-verify: false}
+  - {name: t03.ssrsub.comusa-server-02.selfupay.com:443, server: t03.ssrsub.comusa-server-02.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.comusa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: jp-server-02.selfupay.com:443 8, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: jp-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "|58.67Mb", server: 103.81.85.238, port: 443, type: trojan, password: 5623be5f-c9da-4511-81a9-b4b39b16edae, skip-cert-verify: false}
+  - {name: usa-server-02.selfupay.com:443 4 2, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: e5d4636ebef7d1b1d6205fd0c55f28800e674, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: t03.ssrsub.com.xyz:443, server: t03.ssrsub.com.xyz, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.com.xyz, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 40, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: t03.ssrsub.com2.selfupay.com:443, server: t03.ssrsub.com2.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.com2.selfupay.com, skip-cert-verify: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4, server: us.swiftfalcon.app, port: 8447, type: trojan, password: shenmegui, sni: us.swiftfalcon.app, skip-cert-verify: false}
+  - {name: 210.0.158.220:28443, server: 210.0.158.220, port: 28443, type: trojan, password: 7f38669a-90f2-481f-8591-8a09c5108959, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 9, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 7e6256a0-b4ab-11eb-bc8f-1239d36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇰🇷 _KR_韩国, server: 3.34.6.217, port: 443, type: trojan, password: xxoo, skip-cert-verify: false}
+  - {name: "| 2.03Mb", server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: false}
+  - {name: uk01.trojanyyds.xyz:443, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: cd41b9d7-df15-46ad-a778-257b0851525a, sni: uk01.trojanyyds.xyz, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 30, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4a36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: iplc.xiaohouzi.club, port: 20011, type: trojan, password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af, sni: iplc.xiaohouzi.club, skip-cert-verify: false}
+  - {name: 波兰(youtube阿伟科技) 3, server: 51.83.186.142, port: 80, type: trojan, password: 1d096053-5f92-4b0d-80f5-ebaaef97544f, skip-cert-verify: false}
+  - {name: rver-01.selfupay.com:443, server: rver-01.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: rver-01.selfupay.com, skip-cert-verify: false}
+  - {name: us-trojan.bonds.id:443 3, server: us-trojan.bonds.id, port: 443, type: trojan, password: fc39ffa0-2040-11ed-a1ff-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: false}
+  - {name: 波兰(youtube科技), server: 51.83.186.142, port: 80, type: trojan, password: 9ca1f2e4-0d7b-440b-a261-109c35270dda, skip-cert-verify: false}
+  - {name: t03.ssrsub.com-server-02.selfupay.com:443, server: t03.ssrsub.com-server-02.selfupay.com, port: 443, type: trojan, password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, sni: t03.ssrsub.com-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "| 2.90Mb", server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b44579e1-f803-4981-86bc-aa8c783daa04, sni: uk1.trojanvh.xyz, skip-cert-verify: false}
+  - {name: 184.168.127.50:443 3, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false}
+  - {name: ned-server-01.selfupay.com:443 2, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 82lWNFc1Rm-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 3, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "| 2.18Mb", server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: false}
+  - {name: "| 1.88Mb", server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: false}
+  - {name: usa-server-02.selfupay.com:443, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: usa-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: www.tokyo2023.ga:443, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: false}
+  - {name: hk-server-02.selfupay.com:443 33, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebefac5a3a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: false}
+  - {name: "| 2.02Mb", server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: false}
+  - {name: "|48.26Mb", server: tw01.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, sni: tw01.balala2016.xyz, skip-cert-verify: false}
+  - {name: ned-server-01.selfupay.com:443, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 82lWNFc1RmRBN-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: ned-server-01.selfupay.com:443 3, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3a3fa58b581353bb375d2ddad0f327938, sni: ned-server-01.selfupay.com, skip-cert-verify: false}
+  - {name: 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦, server: hn.xiaohouzi.club, port: 18460, type: trojan, password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af, sni: hn.xiaohouzi.club, skip-cert-verify: false}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 2, server: mysql.accessconnect.cc, port: 6202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 3, server: sql.accessconnect.cc, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 4, server: sql.accessconnect.cc, port: 2702, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 5, server: sql.accessconnect.cc, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: undefined【付费推荐：goo.gs/vip】, server: oracle.accessconnect.cc, port: 11130, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 6, server: sql.accessconnect.cc, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 7, server: sql.accessconnect.cc, port: 1150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 8, server: sql.accessconnect.cc, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 9, server: sql.accessconnect.cc, port: 2302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 10, server: mysql.accessconnect.cc, port: 3203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 11, server: sql.accessconnect.cc, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 12, server: mysql.accessconnect.cc, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 13, server: mysql.accessconnect.cc, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 14, server: mysql.accessconnect.cc, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 15, server: sql.accessconnect.cc, port: 2002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 16, server: sql.accessconnect.cc, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 17, server: mysql.accessconnect.cc, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 18, server: sql.accessconnect.cc, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: "🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】", server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 19, server: sql.accessconnect.cc, port: 874, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 20, server: sql.accessconnect.cc, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 21, server: mysql.accessconnect.cc, port: 6102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 22, server: sql.accessconnect.cc, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 23, server: mysql.accessconnect.cc, port: 1800, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 24, server: sql.accessconnect.cc, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 25, server: sql.accessconnect.cc, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 26, server: sql.accessconnect.cc, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 27, server: sql.accessconnect.cc, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 28, server: sql.accessconnect.cc, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 29, server: sql.accessconnect.cc, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 30, server: mysql.accessconnect.cc, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 31, server: sql.accessconnect.cc, port: 1602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a0c2e225915.www.gov.hk}
+  - {name: "🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2", server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 55956:111111, obfs-param: ""}
+  - {name: 🇨🇳 CN【付费推荐：goo.gs/vip】 32, server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 55956:111111, obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -613,86 +1446,205 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 v2rayfree.eu.org-美国CloudFlare公司CDN节点 22
-      - 🇺🇲 美国(油管:破解资源君2.0)
-      - 🇨🇳 _CN_中国
-      - 🇺🇲 美国_1219179
-      - 🇮🇩 ID印尼(youtube阿伟科技
-      - 🇲🇴 澳门_1219089
-      - 未知_1219588
-      - 🇭🇰 香港_1219026
-      - 🇺🇲 US_154.3.4.48_121820226c7d-187ssr
-      - 🇺🇲 美西_圣何塞1_AMD2
-      - 🇨🇭 瑞士_苏黎世1_AMD2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - "@SSRSUB-V09-付费推荐:suo.yt/ssrsub"
       - 🇭🇰 香港_1219039
-      - 🇨🇳 中国_1219573
-      - 欧洲(油管:破解资源君)
-      - 🇺🇲 美国(TG频道@kxswa)
-      - github.com/mehdimoghaddam-cell
-      - us-trojan.bonds.id:443 2
-      - usa-server-02.selfupay.com:443 4
-      - 🇭🇰 香港(TG频道@kxswa)
-      - 🇫🇷 法国_1219002
-      - 72.167.45.6:443
-      - 🇺🇲 -美国(youtube阿伟科技)25
-      - 🇻🇳 越南(youtube阿伟科技)
-      - 🇺🇲 美国_1219158
-      - 🇺🇲 美国(TG频道@kxswa) 2
-      - usa-server-02.selfupay.com:443 3
-      - jp-server-02.selfupay.com:443 7
-      - "| 2.02Mb"
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇭🇰 香港_1224185
+      - 🇭🇰 香港_1224032
       - 🇭🇰 香港_1219020
-      - 184.168.127.50:443 2
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=53
-      - 🇨🇳 台湾=tg频道:@bpjzx2=41
-      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
-      - hk-server-02.selfupay.com:443 2
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=49
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=44
-      - 🇳🇱 荷兰_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=52
-      - 🇯🇵 东京=tg频道:@bpjzx2=58
-      - 🇨🇳 CN_51 v2cross.com
-      - "| 2.03Mb"
-      - 🇯🇵 东京=tg频道:@bpjzx2=63
-      - 🇬🇧 伦敦=tg频道:@bpjzx2=65
-      - 🇺🇲 美国 071
-      - "|443.42Mb"
-      - 🇭🇰 香港_1219030
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=54
-      - 🇭🇰 香港=tg频道:@bpjzx2=34
       - 🇭🇰 香港_1219022
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=47
-      - us-trojan.bonds.id:443 3
-      - 🇭🇰 香港_1219037
-      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
-      - "| 1.88Mb"
-      - 🇭🇰 香港_1219021
-      - "| 2.18Mb"
-      - 🇭🇰 香港_1219028
-      - 🇯🇵 东京=tg频道:@bpjzx2=61
-      - 🇯🇵 来源：kkzui.comJP来源：kkzui.com日本来源：kkzui.com18
-      - sg-server-01.selfupay.com:443
-      - 🇺🇲 洛杉矶=tg频道:@bpjzx2=51
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=48
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=13
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇨🇳 台湾01|直连|Lv1 1×
-      - 🇺🇲 美国_1219015
-      - 🇺🇲 美国(TG频道@kxswa) 3
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=50
-      - 🇺🇲 美国 069
-      - 🇭🇰 香港_1219033
-      - 🇯🇵 JP日本(youtube阿伟科技)
-      - 伯利兹_1219015
-      - 🇻🇳 越南(youtube阿伟科技)68
-      - upay.com:443
+      - GetAFreeNode-Vienna
+      - 🇭🇰 香港_1224189
+      - 🇻🇳 越南_1224026
+      - 🇭🇰 香港_1224025
+      - GetAFreeNode-LosAngeles
+      - 🇭🇰 香港_1224008
+      - 🇺🇲 美国_1224974
       - 🇦🇺 github.com/freefq-澳大利亚悉尼 3
-      - 🇺🇲 US 美国(youtube阿伟科技)
-      - 🇺🇲 通用｜圣何塞｜10
+      - 🇫🇷 法国_1224048
+      - 🇫🇷 法国_1219002
+      - 🇨🇳 中国_1224479
+      - 🇳🇱 荷兰_1219030
+      - 🇺🇲 @SSRSUB-美国V07-付费推荐:dlj.tf/ssrsub
+      - 🇨🇳 中国_1224487
+      - 🇷🇺 俄罗斯(油管:破解资源君)
+      - 🇺🇲 US【付费推荐：goo.gs/vip】
+      - 🇷🇺 俄罗斯联邦_1224001
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】
+      - 🇨🇳 中国_1224181
       - 🇺🇲 US美国(youtube阿伟科技)11(youtube阿伟科技)334
+      - "@SSRSUB-V01-付费推荐:suo.yt/ssrsub"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - 🇨🇳 中国_1224489
+      - 🇨🇳 _CN_中国
+      - 🇩🇪 德国_1224091
+      - 🇨🇳 中国_1224488
+      - 🇸🇬 SG【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 中国_1224103
+      - 🇰🇷 韩国_1224083
+      - "@SSRSUB-V02-付费推荐:suo.yt/ssrsub"
+      - 🇰🇷 韩国_1224002
+      - 伯利兹_1219015
+      - 🇺🇲 美国 072
+      - 🇷🇺 俄罗斯联邦_1224030
+      - 🇭🇰 香港_1224181
+      - 🇨🇳 中国_1224100
+      - 🇨🇳 中国_12241441
+      - "@SSRSUB-V35-付费推荐:suo.yt/ssrsub"
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 44
+      - 伯利兹_1224006
+      - 🇨🇳 中国_12241257
+      - 🇭🇰 香港_1224005
+      - 🇨🇳 中国_12241256
+      - 🇺🇲 github.com/freefq-美国CloudFlare节点 13
+      - 🇨🇳 中国_12241267
+      - 🇭🇰 香港_1224030
+      - 🇭🇰 香港_1224176
+      - github.com/freefq-希腊  29
+      - 🇨🇳 中国_12241258
+      - 🇭🇰 香港_1224188
+      - 🇰🇷 韩国_1224130
+      - "@SSRSUB-V21-付费推荐:suo.yt/ssrsub"
+      - 🇨🇳 中国_12241250
+      - 🇸🇬 新加坡_1224002
+      - 伯利兹_1224014
+      - 🇭🇰 香港_1224013
+      - 🇨🇳 中国_1224102
+      - 🇨🇳 中国_12241265
+      - 🇨🇳 中国_1224196
+      - 🇭🇰 香港_1224179
+      - 🇨🇳 中国_12241254
+      - 🇰🇷 韩国_1224067
+      - 🇨🇳 中国_12241268
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - github.com/freefq-欧盟  5
+      - 🇨🇳 中国_12241100
+      - 🇺🇲 美国 019
+      - 🇨🇳 _CN_中国_1
+      - 🇭🇰 香港_1224183
+      - 🇰🇷 韩国_1224120
+      - 🇫🇷 法国_1224002
+      - 🇺🇲 美国(来源网址：kkzui.com_20
+      - 🇨🇳 中国_1224015
+      - 🇨🇳 中国_1224134
+      - 🇨🇳 中国_1224135
+      - 🇭🇰 香港_1224186
+      - 🇨🇳 中国_1224137
+      - 🇭🇰 香港_1224028
+      - 🇭🇰 香港_1224177
+      - 🇺🇲 美国(来源网址：kkzui.com_21
+      - 🇨🇳 中国_1224101
+      - 2022-12-23
+      - 🇰🇷 _KR_韩国_1
+      - 🇯🇵 _JP_日本
+      - 🇸🇬 _SG_新加坡
+      - 🇸🇬 +_SG_新加坡
+      - 🇸🇬 +_SG_新加坡 2
+      - t03.ssrsub.comusa-server-02.selfupay.com:443 4
+      - hk-server-02.selfupay.com:443 2
+      - "|443.42Mb"
+      - usa-server-02.selfupay.com:443 3
+      - 184.168.127.50:443 2
+      - t03.ssrsub.comserver-02.selfupay.com:443
+      - us-trojan.bonds.id:443 2
+      - k-server-02.selfupay.com:443
+      - us-trojan.bonds.id:443
+      - t03.ssrsub.comk-server-02.selfupay.com:443
+      - hk-server-02.selfupay.com:443 6
+      - hk-server-02.selfupay.com:443 27
+      - hk-server-02.selfupay.com:443 4
+      - mianfeifq 214
+      - usa-server-02.selfupay.com:443 4
+      - 72.167.45.6:443
+      - 72.167.45.6:443 2
+      - 🇷🇺 俄罗斯联邦(TG频道@kxswa)
+      - t03.ssrsub.comhk-server-02.selfupay.com:443 6
+      - 🇺🇲 美国(TG频道@kxswa)
+      - 🇺🇲 美国(TG频道@kxswa) 2
+      - PL【付费推荐：goo.gs/vip】
+      - 🇭🇰 HK_339
+      - hk-server-02.selfupay.com:443 10
+      - t03.ssrsub.comerver-02.selfupay.com:443
+      - 🇯🇵 东京=tg频道:@bpjzx2=58
+      - hk-server-02.selfupay.com:443
+      - t03.ssrsub.comhk-server-02.selfupay.com:443
+      - 电报群 https://t.me/JavHD99
+      - 🇯🇵 东京=tg频道:@bpjzx2=61
+      - 🇺🇲 US_AzadNet
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇸🇬 新加坡01|流媒体+2_2(来源：kkzui.com)178
+      - "|12.64Mb"
+      - 18844@os6.cats22.net:443
+      - 🇭🇰 香港=tg频道:@bpjzx2=34
+      - upay.com:443
+      - t03.ssrsub.comusa-server-02.selfupay.com:443
+      - jp-server-02.selfupay.com:443 8
+      - "|58.67Mb"
+      - usa-server-02.selfupay.com:443 4 2
+      - t03.ssrsub.com.xyz:443
+      - hk-server-02.selfupay.com:443 40
+      - t03.ssrsub.com2.selfupay.com:443
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 4
+      - 210.0.158.220:28443
+      - hk-server-02.selfupay.com:443 9
+      - 🇰🇷 _KR_韩国
+      - "| 2.03Mb"
+      - uk01.trojanyyds.xyz:443
+      - hk-server-02.selfupay.com:443 30
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 波兰(youtube阿伟科技) 3
+      - rver-01.selfupay.com:443
+      - us-trojan.bonds.id:443 3
+      - 波兰(youtube科技)
+      - t03.ssrsub.com-server-02.selfupay.com:443
+      - "| 2.90Mb"
+      - 184.168.127.50:443 3
+      - ned-server-01.selfupay.com:443 2
+      - hk-server-02.selfupay.com:443 3
+      - "| 2.18Mb"
+      - "| 1.88Mb"
+      - usa-server-02.selfupay.com:443
+      - www.tokyo2023.ga:443
+      - hk-server-02.selfupay.com:443 33
+      - "| 2.02Mb"
+      - "|48.26Mb"
+      - ned-server-01.selfupay.com:443
+      - ned-server-01.selfupay.com:443 3
+      - 🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 3
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 4
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 5
+      - undefined【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 6
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 7
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 8
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 9
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 10
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 11
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 12
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 13
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 14
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 15
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 16
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 17
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 18
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 19
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 20
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 21
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 22
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 23
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 24
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 25
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 26
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 27
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 28
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 29
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 30
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 31
+      - 🇨🇳 [SSR] 🇨🇳 CN【付费推荐：goo.gs/vip】 2
+      - 🇨🇳 CN【付费推荐：goo.gs/vip】 32
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
